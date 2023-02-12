@@ -9,7 +9,7 @@ int main(void) {
   double peso = 70.5;
   // bool ativo = true;
 
-  int val1, val2, soma;
+  int val1, val2, soma, subtracao, multiplicacao, divisao, modulo;
 
   int idadeTernario;
 
@@ -26,8 +26,8 @@ int main(void) {
   int m = 0;
   int n = 0;
 
-  // Constante
-  #define PI 3.14159265
+// Constante
+#define PI 3.14159265
 
   // Comentário de uma linha
 
@@ -35,22 +35,26 @@ int main(void) {
     de varias linhas */
 
   // Escrever na tela
-  printf("Hello World\n");
+  printf("### Escrever na tela ###\n");
+  printf("Olá Mundo \n");
   printf("\n");
 
-  // variáveis
-  printf("### VARIAVEIS ###\n");
-  printf("%s\n", nome);
-  printf("%d\n", idade);
-  printf("%s\n", sexo);
-  printf("%f\n", peso);
+  // VARIÁVEIS
+  printf("### VARIÁVEIS ###\n");
+  printf("Nome: %s\n", nome);
+  printf("Idade: %d\n", idade);
+  printf("Sexo: %s\n", sexo);
+  printf("Peso: %f\n", peso);
   // printf("%s", ativo);
   printf("\n");
 
-  // constante
-  printf("%f", PI);
+  // CONSTANTE
+  printf("### CONSTANTE ###\n");
+  printf("PI: %f \n", PI);
+  printf("\n");
 
-  printf("####Capturando Variáveis#### \n");
+  // OPERACOES
+  printf("#### OPERACOES #### \n");
   printf("Informe o valor 1: ");
   scanf("%d", &val1);
 
@@ -58,19 +62,26 @@ int main(void) {
   scanf("%d", &val2);
 
   soma = val1 + val2; // Pode usar: (+, -, *, /, %)
-  printf("%d", soma);
-  printf("\n");
+  subtracao = val1 - val2;
+  multiplicacao = val1 * val2;
+  divisao = val1 / val2;
+  modulo = val1 % val2;
+  printf("Soma: %d \n", soma);
+  printf("Subtracao: %d \n", subtracao);
+  printf("Multiplicacao: %d \n", multiplicacao);
+  printf("Divisao: %d \n", divisao);
+  printf("Modulo: %d \n", modulo);
   printf("\n");
 
   // TERNARIO
-  printf("###TERNARIO\n");
+  printf("### TERNARIO \n");
   printf("Digite um número: ");
   scanf("%d", &idadeTernario);
   idadeTernario >= 18 ? printf("Maior de idade\n") : printf("Menor de idade\n");
   printf("\n");
 
   // IF ELSE IF ELSE
-  printf("###IF ELSE IF ELSE\n");
+  printf("### IF ELSE IF ELSE \n");
   printf("Informe a idade: ");
   scanf("%d", &idadeIF);
   if (idadeIF < 12) {
@@ -83,7 +94,7 @@ int main(void) {
   printf("\n");
 
   // CASE
-  printf("###SWITCH CASE\n");
+  printf("### SWITCH CASE \n");
   printf("Informe um numero 1 - 7 para semana: ");
   scanf("%d", &dia);
 
@@ -125,12 +136,12 @@ int main(void) {
   printf("\n");
 
   // REPEAT
-  printf("###REPEAT### \n");
+  printf("### REPEAT ### \n");
   printf("Não tem REPEAT \n");
   printf("\n");
 
   // DO WHILE
-  printf("###DO WHILE### \n");
+  printf("### DO WHILE ### \n");
   do {
     printf("%d\n", a);
     a = a + 1;
@@ -138,7 +149,7 @@ int main(void) {
   printf("\n");
 
   // WHILE
-  printf("###WHILE###");
+  printf("### WHILE ###");
   while (b < 10) {
     printf("%d\n", b);
     b = b + 1;
@@ -146,7 +157,7 @@ int main(void) {
   printf("\n");
 
   // FOR
-  printf("###FOR### \n");
+  printf("### FOR ### \n");
   for (c = 0; c < 10; c++) {
     printf("%d\n", c);
   }
@@ -154,13 +165,13 @@ int main(void) {
   printf("\n");
 
   // FUNCAO
-/**
-  printf("###FUNCAO### \n");
-  printf("Digite o valor 1\n");
-  scanf("%d", &m);
+  /**
+    printf("###FUNCAO### \n");
+    printf("Digite o valor 1\n");
+    scanf("%d", &m);
 
-  printf("Digite o valor 2\n");
-  scanf("%d", &n); **/
+    printf("Digite o valor 2\n");
+    scanf("%d", &n); **/
 
   // printf("Soma %d\n", soma(m,n));
 
