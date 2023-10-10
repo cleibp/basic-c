@@ -25,7 +25,7 @@ Exemplificação da sintaxe geral e básica da Linguagem C
 ```sh
 .
 ├── main.c
-├── README.md
+└── README.md
 ```
 
 ## 👋🏽 DEMO
