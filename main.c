@@ -242,11 +242,14 @@ int main(void) {
   printf("\n");
 
   // TRY CATCH
-  /*
   printf("### TRY ### \n");
-  printf("Digite dois números para a divisão:\n");
-  scanf("%d %d", &numero1, &numero2);
-  
+  printf("Informe o valor 1 para o dividendo: ");
+  scanf("%d", &numero1);
+
+  printf("Informe o valor 2 para o divisor: ");
+  scanf("%d", &numero2);
+
+  /*
   try {
       if (numero2 == 0) {
           throw "Divisão por zero não é permitida!";
@@ -256,7 +259,8 @@ int main(void) {
   } catch (const char* mensagem) {
       printf("Ocorreu uma exceção: %s\n", mensagem);
   }
- */
+  */
+  printf("\n");
 
   // ENUM
   printf("### ENUM ### \n");
