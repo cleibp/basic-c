@@ -29,7 +29,7 @@ Exemplificação da sintaxe geral e básica da Linguagem C
 ```
 
 ## 👋🏽 DEMO
-[REPLIT](https://replit.com/@cleibp/Basic-C#main.c) 
+|=>
 
 ## Contatos
 
